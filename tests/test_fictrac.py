@@ -39,7 +39,7 @@ def test_driver(tmpdir):
 
     opts, parser = parse_arguments("--config demo_experiment_and_playlist.yml", return_parser=True)
 
-    driver = FicTracDriver('config.txt', 'output.txt', pgr_enable=False)
+    driver = FicTracDriver('config.txt', 'output.txt', pgr_enable=True)
 
     fictrac_task = ConcurrentTask(task=driver.run, comms=None, taskinitargs=[opts])
     fictrac_task.start()

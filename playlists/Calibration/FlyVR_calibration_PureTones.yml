@@ -1,0 +1,218 @@
+configuration:
+  analog_in_channels:
+    0: 'Calibration amplifier'
+  attenuation_file:
+    null
+  projector_disable:
+    true
+  remote_2P_disable:
+    true
+  samplerate_daq:
+    44100
+    
+playlist:
+  audio:
+  - _options: {random_mode: 'none', repeat: 1} 
+  - sin_100_1sec:
+      attenuator: null
+      filename: sin_100_1sec
+      frequency: 100.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_150_1sec:
+      attenuator: null
+      filename: sin_150_1sec
+      frequency: 150.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_200_1sec:
+      attenuator: null
+      filename: sin_200_1sec
+      frequency: 200.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_250_1sec:
+      attenuator: null
+      filename: sin_250_1sec
+      frequency: 250.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_300_1sec:
+      attenuator: null
+      filename: sin_300_1sec
+      frequency: 300.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_350_1sec:
+      attenuator: null
+      filename: sin_350_1sec
+      frequency: 350.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_400_1sec:
+      attenuator: null
+      filename: sin_400_1sec
+      frequency: 400.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_450_1sec:
+      attenuator: null
+      filename: sin_450_1sec
+      frequency: 450.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_500_1sec:
+      attenuator: null
+      filename: sin_500_1sec
+      frequency: 500.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_550_1sec:
+      attenuator: null
+      filename: sin_550_1sec
+      frequency: 550.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_600_1sec:
+      attenuator: null
+      filename: sin_600_1sec
+      frequency: 600.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_650_1sec:
+      attenuator: null
+      filename: sin_650_1sec
+      frequency: 650.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_700_1sec:
+      attenuator: null
+      filename: sin_700_1sec
+      frequency: 700.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_750_1sec:
+      attenuator: null
+      filename: sin_750_1sec
+      frequency: 750.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_800_1sec:
+      attenuator: null
+      filename: sin_800_1sec
+      frequency: 800.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_850_1sec:
+      attenuator: null
+      filename: sin_850_1sec
+      frequency: 850.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - sin_900_1sec:
+      attenuator: null
+      filename: sin_900_1sec
+      frequency: 900.0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100

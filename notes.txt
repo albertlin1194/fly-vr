@@ -1,0 +1,4 @@
+reverse 
+after 6 minutes fictrac started to move sporadically 
+
+spinview camera working well

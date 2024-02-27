@@ -1,0 +1,615 @@
+configuration:
+  analog_in_channels:
+    0: 'Calibration amplifier'
+  attenuation_file:
+    null
+  projector_disable:
+    true
+  remote_2P_disable:
+    true
+  samplerate_daq:
+    44100
+    
+playlist:
+  audio:
+  - _options: {random_mode: 'none', repeat: 1} 
+
+  - WN_Stim1_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim1
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim1_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim1
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim1_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim1
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim1_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim1
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim1_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim1
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim2_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim2
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim2_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim2
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim2_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim2
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim2_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim2
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim2_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim2
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim3_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim3
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim3_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim3
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim3_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim3
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim3_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim3
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim3_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim3
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim4_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim4
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim4_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim4
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim4_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim4
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim4_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim4
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim4_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim4
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim5_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim5
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim5_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim5
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim5_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim5
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim5_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim5
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim5_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim5
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim6_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim6
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim6_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim6
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim6_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim6
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim6_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim6
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim6_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim6
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim7_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim7
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim7_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim7
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim7_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim7
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim7_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim7
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim7_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim7
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim8_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim8
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim8_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim8
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim8_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim8
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim8_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim8
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim8_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim8
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim9_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim9
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim9_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim9
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim9_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim9
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim9_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim9
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim9_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim9
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim10_intensity1:
+      attenuator: null
+      filename: WN_20201231_Stim10
+      frequency: 0
+      intensity: 1.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim10_intensity2:
+      attenuator: null
+      filename: WN_20201231_Stim10
+      frequency: 0
+      intensity: 2.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim10_intensity3:
+      attenuator: null
+      filename: WN_20201231_Stim10
+      frequency: 0
+      intensity: 3.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+
+  - WN_Stim10_intensity4:
+      attenuator: null
+      filename: WN_20201231_Stim10
+      frequency: 0
+      intensity: 4.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100
+      
+  - WN_Stim10_intensity5:
+      attenuator: null
+      filename: WN_20201231_Stim10
+      frequency: 0
+      intensity: 5.0
+      max_value: 10.0
+      min_value: -10.0
+      name: matfile
+      pre_silence: 1000
+      post_silence: 1000
+      sample_rate: 44100

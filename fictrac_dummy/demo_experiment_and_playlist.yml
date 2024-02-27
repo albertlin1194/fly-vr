@@ -1,0 +1,39 @@
+state:
+  del_rot_cam_vec[1]:
+    ge:
+      value: 0.009
+      average: 25
+      absolute: true
+      do:
+        - playlist_item: {backend: 'audio', identifier: 'audio_stim1'}
+        - playlist_item: {backend: 'video', identifier: 'video_stim1'}
+time:
+  10000:
+    do:
+      - video: {name: 'grating'}
+  40000:
+    do:
+      - playlist_item: {backend: 'audio', identifier: 'audio_stim2'}
+playlist:
+  audio:
+    - audio_stim1: {name: 'sin', frequency: 650, amplitude: 1.0, duration: 10000}
+    - audio_stim2: {name: 'sin', frequency: 250, amplitude: 1.0, duration: 20000}
+  video:
+    - video_stim1: {name: 'looming'}
+configuration:
+  attenuation_file: null
+  experiment_file: null
+  analog_in_channels: {}
+  analog_out_channels: {}
+  screen_calibration: null
+  use_RSE: true
+  remote_2P_disable: false
+  remote_start_2P_channel: 3
+  remote_stop_2P_channel: 4
+  remote_next_2P_channel: 5
+  keepalive_video: false
+  keepalive_audio: false
+  fictrac_config: null
+  fictrac_console_out: null
+  pgr_cam_disable: false
+  projector_disable: false

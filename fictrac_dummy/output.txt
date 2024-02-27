@@ -1,0 +1,2450 @@
+Initialised logging to fictrac-20240209_163139.log
+///
+/// FicTrac:	A webcam-based method for generating fictive paths.
+///
+/// Usage:	fictrac CONFIG_FN [-v LOG_VERBOSITY]
+///
+/// 	CONFIG_FN	Path to input config file (defaults to config.txt).
+/// 	LOG_VERBOSITY	[Optional] One of DBG, INF, WRN, ERR.
+///
+/// Version: 2.1.1 (build date: Jun 28 2021)
+///
+
+Set process priority to HIGH!
+Looking for config file: config.txt ..
+Config file parsed (24 key/value pairs).
+Using source type: video file.
+OpenCV video source initialised (384x288)!
+Warning! Re-computed sphere ROI centred at [-0.229390 0.099969 0.968187], with radius 0.124815 rad from 4 roi_circ points.
+Input sphere mask automatically generated using 2 ignore ROIs!
+Warning! No optimisation error threshold specified in config file (opt_max_err) - poor matches will not be dropped!
+Opening UDP connection to 127.0.0.1:1111
+Setting up a shared memory region (FicTracStateSHMEM) for state output
+Creating semaphore FicTracStateSHMEM_SEMPH with counts 1 of 1...
+Created
+Setting up a shared memory region (FicTracStateSHMEM_SIGNALS) for control
+Creating semaphore FicTracStateSHMEM_SIGNALS_SEMPH with counts 1 of 1...
+Created
+Warning! Using default value for save_raw (0).
+
+Frame 0
+optimum sphere rotation:	0.000 0.000 0.000  (err=0.000e+00/its=0)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 9.3 / 0.1 / 0.2 / 0.0 / 0.1 / 0.4 ms
+Average frame rate [in/out]: 0.0 [0.0 / 0.0] fps
+
+Frame 1
+optimum sphere rotation:	-0.000 0.033 0.002  (err=5.165e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.1 / 0.3 ms
+Average frame rate [in/out]: 75.2 [0.0 / 300.9] fps
+
+Frame 2
+optimum sphere rotation:	0.015 0.018 0.030  (err=5.793e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 7.0 / 0.2 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 90.0 [30.0 / 134.2] fps
+
+Frame 3
+optimum sphere rotation:	0.010 -0.001 0.014  (err=5.497e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.5 / 0.2 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 118.3 [30.0 / 203.1] fps
+
+Frame 4
+optimum sphere rotation:	-0.011 0.028 0.013  (err=5.793e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 156.6 [30.0 / 271.6] fps
+
+Frame 5
+optimum sphere rotation:	0.006 0.061 -0.023  (err=5.625e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 199.0 [30.0 / 326.2] fps
+
+Frame 6
+optimum sphere rotation:	0.091 0.099 -0.052  (err=6.273e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 225.6 [30.0 / 305.3] fps
+
+Frame 7
+optimum sphere rotation:	0.062 0.118 -0.052  (err=6.303e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 250.0 [30.0 / 323.2] fps
+
+Frame 8
+optimum sphere rotation:	0.040 0.118 -0.019  (err=6.579e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 264.5 [30.0 / 308.2] fps
+
+Frame 9
+optimum sphere rotation:	-0.003 0.134 0.025  (err=6.178e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.0 / 0.2 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 244.3 [30.0 / 183.5] fps
+
+Frame 10
+optimum sphere rotation:	-0.027 0.074 0.030  (err=6.393e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.9 / 0.2 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 240.2 [30.0 / 227.9] fps
+
+Frame 11
+optimum sphere rotation:	-0.038 0.074 0.049  (err=6.735e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.1 / 0.2 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 235.2 [30.0 / 220.3] fps
+
+Frame 12
+optimum sphere rotation:	-0.034 0.080 0.001  (err=6.832e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.1 / 0.2 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 230.4 [30.0 / 216.1] fps
+
+Frame 13
+optimum sphere rotation:	-0.034 0.075 -0.022  (err=6.417e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 247.6 [30.0 / 299.2] fps
+
+Frame 14
+optimum sphere rotation:	-0.019 0.076 -0.011  (err=6.769e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 261.1 [30.0 / 301.4] fps
+
+Frame 15
+optimum sphere rotation:	-0.045 0.017 -0.005  (err=7.063e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 283.4 [30.0 / 350.4] fps
+
+Frame 16
+optimum sphere rotation:	-0.056 0.054 -0.025  (err=6.918e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 282.4 [30.0 / 279.4] fps
+
+Frame 17
+optimum sphere rotation:	-0.068 0.040 -0.057  (err=7.152e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 284.1 [30.0 / 289.3] fps
+
+Frame 18
+optimum sphere rotation:	-0.045 0.073 -0.094  (err=7.116e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 291.3 [30.0 / 312.7] fps
+
+Frame 19
+optimum sphere rotation:	-0.022 0.020 -0.047  (err=6.826e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 284.2 [30.0 / 263.2] fps
+
+Frame 20
+optimum sphere rotation:	-0.046 0.036 0.010  (err=7.017e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 293.9 [30.0 / 322.9] fps
+
+Frame 21
+optimum sphere rotation:	-0.062 0.051 -0.043  (err=6.912e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 286.9 [30.0 / 266.1] fps
+
+Frame 22
+optimum sphere rotation:	-0.029 0.067 -0.065  (err=7.258e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.6 / 0.3 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 264.5 [30.0 / 197.0] fps
+
+Frame 23
+optimum sphere rotation:	-0.029 0.062 -0.063  (err=6.827e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 257.7 [30.0 / 237.5] fps
+
+Frame 24
+optimum sphere rotation:	-0.022 0.029 0.005  (err=7.228e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 261.4 [30.0 / 272.5] fps
+
+Frame 25
+optimum sphere rotation:	-0.018 0.039 -0.028  (err=6.985e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 290.2 [30.0 / 376.6] fps
+
+Frame 26
+optimum sphere rotation:	-0.020 0.054 -0.049  (err=7.047e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 290.8 [30.0 / 292.4] fps
+
+Frame 27
+optimum sphere rotation:	0.001 0.055 -0.039  (err=7.317e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.7 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 280.2 [30.0 / 248.6] fps
+
+Frame 28
+optimum sphere rotation:	-0.022 0.035 -0.031  (err=7.236e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.5 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 262.1 [30.0 / 207.7] fps
+
+Frame 29
+optimum sphere rotation:	-0.001 0.005 0.042  (err=7.215e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 269.7 [30.0 / 292.3] fps
+
+Frame 30
+optimum sphere rotation:	0.026 0.023 -0.020  (err=7.043e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 287.1 [30.0 / 339.3] fps
+
+Frame 31
+optimum sphere rotation:	0.007 0.042 -0.002  (err=7.060e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 294.1 [30.0 / 315.3] fps
+
+Frame 32
+optimum sphere rotation:	-0.001 0.036 0.021  (err=7.064e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 312.7 [30.0 / 368.5] fps
+
+Frame 33
+optimum sphere rotation:	0.019 0.035 0.031  (err=7.162e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.2 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 338.1 [30.0 / 414.4] fps
+
+Frame 34
+optimum sphere rotation:	0.023 0.039 0.060  (err=6.941e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.8 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 315.6 [30.0 / 248.0] fps
+
+Frame 35
+optimum sphere rotation:	0.023 0.030 0.035  (err=7.043e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 323.5 [30.0 / 347.2] fps
+
+Frame 36
+optimum sphere rotation:	-0.005 0.031 0.046  (err=7.105e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 324.3 [30.0 / 326.7] fps
+
+Frame 37
+optimum sphere rotation:	0.020 0.054 -0.004  (err=6.968e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.3 / 0.3 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 286.4 [30.0 / 172.7] fps
+
+Frame 38
+optimum sphere rotation:	0.004 0.067 0.005  (err=7.438e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 282.1 [30.0 / 269.3] fps
+
+Frame 39
+optimum sphere rotation:	-0.018 0.062 0.021  (err=7.185e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 288.6 [30.0 / 307.9] fps
+
+Frame 40
+optimum sphere rotation:	0.020 0.086 0.028  (err=7.571e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 287.9 [30.0 / 286.0] fps
+
+Frame 41
+optimum sphere rotation:	-0.054 0.147 -0.007  (err=7.908e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 285.2 [30.0 / 277.1] fps
+
+Frame 42
+optimum sphere rotation:	-0.040 0.111 -0.012  (err=7.571e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 302.9 [30.0 / 355.7] fps
+
+Frame 43
+optimum sphere rotation:	0.015 0.044 0.059  (err=7.579e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 295.6 [30.0 / 274.0] fps
+
+Frame 44
+optimum sphere rotation:	0.004 0.070 0.036  (err=7.268e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 291.2 [30.0 / 277.9] fps
+
+Frame 45
+optimum sphere rotation:	0.003 0.070 0.012  (err=7.317e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 297.1 [30.0 / 315.0] fps
+
+Frame 46
+optimum sphere rotation:	-0.035 0.103 0.005  (err=7.588e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 296.2 [30.0 / 293.3] fps
+
+Frame 47
+optimum sphere rotation:	-0.051 0.113 0.017  (err=7.495e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 296.4 [30.0 / 296.9] fps
+
+Frame 48
+optimum sphere rotation:	-0.015 0.109 -0.010  (err=7.675e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 298.0 [30.0 / 303.0] fps
+
+Frame 49
+optimum sphere rotation:	-0.002 0.068 -0.003  (err=7.408e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 262.0 [30.0 / 153.9] fps
+
+Frame 50
+optimum sphere rotation:	0.005 0.033 0.046  (err=7.426e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 276.9 [30.0 / 321.6] fps
+
+Frame 51
+optimum sphere rotation:	-0.000 0.036 0.014  (err=7.499e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 284.3 [30.0 / 306.4] fps
+
+Frame 52
+optimum sphere rotation:	0.026 0.034 0.026  (err=7.428e+03/its=21)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 289.2 [30.0 / 304.0] fps
+
+Frame 53
+optimum sphere rotation:	0.037 0.036 0.025  (err=7.391e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 314.9 [30.0 / 392.2] fps
+
+Frame 54
+optimum sphere rotation:	0.024 0.067 0.013  (err=7.622e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 312.0 [30.0 / 303.3] fps
+
+Frame 55
+optimum sphere rotation:	0.041 0.116 -0.009  (err=7.688e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 320.8 [30.0 / 347.2] fps
+
+Frame 56
+optimum sphere rotation:	0.047 0.159 -0.057  (err=7.340e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 320.9 [30.0 / 321.1] fps
+
+Frame 57
+optimum sphere rotation:	0.005 0.150 -0.011  (err=6.918e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 311.7 [30.0 / 283.9] fps
+
+Frame 58
+optimum sphere rotation:	-0.027 0.116 0.030  (err=7.287e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 303.8 [30.0 / 280.0] fps
+
+Frame 59
+optimum sphere rotation:	-0.014 0.063 0.030  (err=7.076e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 318.8 [30.0 / 364.0] fps
+
+Frame 60
+optimum sphere rotation:	0.028 0.051 0.056  (err=7.055e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 326.9 [30.0 / 351.2] fps
+
+Frame 61
+optimum sphere rotation:	0.006 0.047 0.015  (err=6.800e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 320.5 [30.0 / 301.2] fps
+
+Frame 62
+optimum sphere rotation:	-0.013 0.050 0.030  (err=6.810e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 333.1 [30.0 / 371.1] fps
+
+Frame 63
+optimum sphere rotation:	-0.007 0.077 0.006  (err=6.815e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 342.3 [30.0 / 369.7] fps
+
+Frame 64
+optimum sphere rotation:	-0.007 0.097 0.003  (err=6.641e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 351.3 [30.0 / 378.2] fps
+
+Frame 65
+optimum sphere rotation:	-0.049 0.107 0.004  (err=6.859e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 341.4 [30.0 / 312.0] fps
+
+Frame 66
+optimum sphere rotation:	-0.040 0.102 -0.018  (err=6.792e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 349.4 [30.0 / 373.1] fps
+
+Frame 67
+optimum sphere rotation:	-0.009 0.081 -0.013  (err=7.080e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 343.4 [30.0 / 325.5] fps
+
+Frame 68
+optimum sphere rotation:	-0.029 0.061 0.002  (err=7.130e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 342.2 [30.0 / 338.6] fps
+
+Frame 69
+optimum sphere rotation:	-0.080 0.078 0.008  (err=7.240e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 342.3 [30.0 / 342.6] fps
+
+Frame 70
+optimum sphere rotation:	-0.046 0.076 0.010  (err=7.142e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 349.3 [30.0 / 370.4] fps
+
+Frame 71
+optimum sphere rotation:	-0.020 0.082 -0.036  (err=7.242e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 342.5 [30.0 / 322.2] fps
+
+Frame 72
+optimum sphere rotation:	-0.038 0.062 -0.037  (err=7.203e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 336.7 [30.0 / 319.3] fps
+
+Frame 73
+optimum sphere rotation:	-0.017 0.065 -0.014  (err=7.423e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.2 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 332.4 [30.0 / 319.5] fps
+
+Frame 74
+optimum sphere rotation:	-0.034 0.042 0.007  (err=6.862e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 325.7 [30.0 / 305.5] fps
+
+Frame 75
+optimum sphere rotation:	-0.023 0.030 0.005  (err=6.967e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 320.4 [30.0 / 304.7] fps
+
+Frame 76
+optimum sphere rotation:	0.005 0.045 -0.010  (err=7.057e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 319.9 [30.0 / 318.4] fps
+
+Frame 77
+optimum sphere rotation:	-0.008 0.010 -0.018  (err=6.856e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 315.4 [30.0 / 301.8] fps
+
+Frame 78
+optimum sphere rotation:	-0.022 -0.013 -0.012  (err=6.971e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 312.3 [30.0 / 302.9] fps
+
+Frame 79
+optimum sphere rotation:	-0.011 -0.010 -0.021  (err=6.954e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 326.0 [30.0 / 367.2] fps
+
+Frame 80
+optimum sphere rotation:	-0.034 -0.001 -0.049  (err=6.870e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 326.4 [30.0 / 327.4] fps
+
+Frame 81
+optimum sphere rotation:	-0.021 0.027 -0.055  (err=6.866e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.3 [30.0 / 318.0] fps
+
+Frame 82
+optimum sphere rotation:	-0.042 0.033 -0.059  (err=6.798e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 335.0 [30.0 / 367.1] fps
+
+Frame 83
+optimum sphere rotation:	-0.025 0.030 -0.045  (err=6.272e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 334.0 [30.0 / 331.2] fps
+
+Frame 84
+optimum sphere rotation:	-0.081 0.049 -0.044  (err=6.556e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 326.2 [30.0 / 302.5] fps
+
+Frame 85
+optimum sphere rotation:	-0.050 0.045 -0.038  (err=6.707e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 328.6 [30.0 / 336.0] fps
+
+Frame 86
+optimum sphere rotation:	-0.043 0.043 -0.022  (err=6.556e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 329.0 [30.0 / 330.3] fps
+
+Frame 87
+optimum sphere rotation:	-0.043 0.053 -0.040  (err=6.529e+03/its=21)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 340.7 [30.0 / 375.7] fps
+
+Frame 88
+optimum sphere rotation:	-0.058 0.054 -0.034  (err=6.249e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 344.1 [30.0 / 354.4] fps
+
+Frame 89
+optimum sphere rotation:	-0.083 0.063 -0.040  (err=6.314e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 337.1 [30.0 / 316.0] fps
+
+Frame 90
+optimum sphere rotation:	-0.078 0.066 -0.071  (err=6.094e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 326.2 [30.0 / 293.8] fps
+
+Frame 91
+optimum sphere rotation:	-0.036 0.066 -0.066  (err=5.827e+03/its=33)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 307.8 [30.0 / 252.7] fps
+
+Frame 92
+optimum sphere rotation:	-0.022 0.015 -0.007  (err=6.022e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 312.5 [30.0 / 326.3] fps
+
+Frame 93
+optimum sphere rotation:	0.005 0.019 -0.011  (err=5.623e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 316.0 [30.0 / 326.7] fps
+
+Frame 94
+optimum sphere rotation:	0.004 0.010 -0.006  (err=5.802e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 328.4 [30.0 / 365.5] fps
+
+Frame 95
+optimum sphere rotation:	0.006 0.023 -0.006  (err=5.906e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 334.2 [30.0 / 351.6] fps
+
+Frame 96
+optimum sphere rotation:	-0.012 0.037 -0.021  (err=5.899e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.4 [30.0 / 295.1] fps
+
+Frame 97
+optimum sphere rotation:	-0.010 0.062 -0.054  (err=5.806e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 314.8 [30.0 / 285.8] fps
+
+Frame 98
+optimum sphere rotation:	-0.008 0.029 0.011  (err=5.821e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 305.8 [30.0 / 278.9] fps
+
+Frame 99
+optimum sphere rotation:	-0.014 0.038 0.006  (err=5.570e+03/its=19)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 338.0 [30.0 / 434.8] fps
+
+Frame 100
+optimum sphere rotation:	-0.013 0.045 0.012  (err=5.791e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 338.8 [30.0 / 341.2] fps
+
+Frame 101
+optimum sphere rotation:	-0.007 0.056 0.021  (err=5.659e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 338.6 [30.0 / 337.7] fps
+
+Frame 102
+optimum sphere rotation:	-0.007 0.091 -0.006  (err=5.936e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.1 [30.0 / 280.7] fps
+
+Frame 103
+optimum sphere rotation:	-0.004 0.086 -0.022  (err=5.716e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 336.8 [30.0 / 375.0] fps
+
+Frame 104
+optimum sphere rotation:	-0.018 0.050 -0.004  (err=5.650e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 336.4 [30.0 / 335.0] fps
+
+Frame 105
+optimum sphere rotation:	-0.016 0.049 0.040  (err=5.877e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 331.6 [30.0 / 317.5] fps
+
+Frame 106
+optimum sphere rotation:	0.007 0.033 0.016  (err=5.408e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 320.5 [30.0 / 287.2] fps
+
+Frame 107
+optimum sphere rotation:	0.018 0.034 0.019  (err=5.530e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 340.8 [30.0 / 401.6] fps
+
+Frame 108
+optimum sphere rotation:	0.013 0.026 0.053  (err=5.300e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 333.1 [30.0 / 310.1] fps
+
+Frame 109
+optimum sphere rotation:	0.025 0.027 0.021  (err=5.238e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.3 [30.0 / 297.7] fps
+
+Frame 110
+optimum sphere rotation:	0.009 0.019 0.034  (err=5.546e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 336.2 [30.0 / 372.2] fps
+
+Frame 111
+optimum sphere rotation:	-0.003 0.027 0.008  (err=5.557e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.7 [30.0 / 289.9] fps
+
+Frame 112
+optimum sphere rotation:	-0.003 0.013 0.010  (err=5.597e+03/its=21)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 339.3 [30.0 / 383.3] fps
+
+Frame 113
+optimum sphere rotation:	-0.014 0.022 -0.005  (err=5.418e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 333.6 [30.0 / 316.5] fps
+
+Frame 114
+optimum sphere rotation:	-0.016 0.027 -0.021  (err=5.561e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.2 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 331.1 [30.0 / 323.4] fps
+
+Frame 115
+optimum sphere rotation:	-0.022 0.066 -0.033  (err=6.368e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 330.7 [30.0 / 329.7] fps
+
+Frame 116
+optimum sphere rotation:	-0.103 0.098 -0.091  (err=5.322e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.6 / 0.2 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 289.4 [30.0 / 165.3] fps
+
+Frame 117
+optimum sphere rotation:	-0.029 0.029 0.006  (err=5.336e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 291.3 [30.0 / 297.3] fps
+
+Frame 118
+optimum sphere rotation:	-0.022 0.035 0.000  (err=5.341e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 294.9 [30.0 / 305.6] fps
+
+Frame 119
+optimum sphere rotation:	-0.017 0.044 -0.033  (err=5.329e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 310.1 [30.0 / 355.5] fps
+
+Frame 120
+optimum sphere rotation:	-0.025 0.100 -0.043  (err=5.616e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 304.9 [30.0 / 289.4] fps
+
+Frame 121
+optimum sphere rotation:	-0.058 0.077 -0.061  (err=5.202e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 314.6 [30.0 / 343.5] fps
+
+Frame 122
+optimum sphere rotation:	-0.053 0.044 0.000  (err=5.600e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.4 [30.0 / 354.1] fps
+
+Frame 123
+optimum sphere rotation:	-0.057 0.049 -0.028  (err=5.932e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 325.7 [30.0 / 329.5] fps
+
+Frame 124
+optimum sphere rotation:	-0.037 0.053 -0.024  (err=5.863e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 335.0 [30.0 / 362.8] fps
+
+Frame 125
+optimum sphere rotation:	-0.023 0.091 -0.053  (err=6.218e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 330.0 [30.0 / 315.2] fps
+
+Frame 126
+optimum sphere rotation:	-0.050 0.062 -0.069  (err=5.834e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 335.7 [30.0 / 352.9] fps
+
+Frame 127
+optimum sphere rotation:	-0.046 0.051 -0.038  (err=6.048e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 331.0 [30.0 / 316.9] fps
+
+Frame 128
+optimum sphere rotation:	-0.063 0.044 0.003  (err=6.720e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 333.0 [30.0 / 339.0] fps
+
+Frame 129
+optimum sphere rotation:	-0.045 0.065 -0.043  (err=6.529e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 319.4 [30.0 / 278.7] fps
+
+Frame 130
+optimum sphere rotation:	-0.037 0.085 -0.079  (err=6.505e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 319.4 [30.0 / 319.2] fps
+
+Frame 131
+optimum sphere rotation:	-0.045 0.056 -0.040  (err=6.239e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 319.5 [30.0 / 319.8] fps
+
+Frame 132
+optimum sphere rotation:	-0.049 0.043 -0.022  (err=6.292e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 325.7 [30.0 / 344.2] fps
+
+Frame 133
+optimum sphere rotation:	-0.051 0.056 -0.014  (err=6.394e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.5 [30.0 / 320.9] fps
+
+Frame 134
+optimum sphere rotation:	-0.024 0.088 -0.049  (err=6.845e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 318.2 [30.0 / 299.3] fps
+
+Frame 135
+optimum sphere rotation:	-0.055 0.101 -0.086  (err=6.222e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 313.8 [30.0 / 300.5] fps
+
+Frame 136
+optimum sphere rotation:	-0.044 0.048 -0.009  (err=6.569e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 321.7 [30.0 / 345.7] fps
+
+Frame 137
+optimum sphere rotation:	-0.039 0.050 0.004  (err=6.667e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 331.1 [30.0 / 359.3] fps
+
+Frame 138
+optimum sphere rotation:	-0.010 0.035 0.001  (err=6.361e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 330.6 [30.0 / 328.8] fps
+
+Frame 139
+optimum sphere rotation:	0.014 -0.002 0.014  (err=6.191e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 328.8 [30.0 / 323.5] fps
+
+Frame 140
+optimum sphere rotation:	0.003 0.004 -0.012  (err=6.130e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 327.4 [30.0 / 323.1] fps
+
+Frame 141
+optimum sphere rotation:	-0.024 0.012 -0.040  (err=6.002e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 329.7 [30.0 / 336.7] fps
+
+Frame 142
+optimum sphere rotation:	-0.031 0.005 -0.078  (err=5.932e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 338.2 [30.0 / 363.5] fps
+
+Frame 143
+optimum sphere rotation:	-0.036 0.014 -0.043  (err=6.106e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.3 ms
+Average frame rate [in/out]: 339.8 [30.0 / 344.8] fps
+
+Frame 144
+optimum sphere rotation:	-0.038 0.004 -0.046  (err=5.934e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.5 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 325.4 [30.0 / 281.9] fps
+
+Frame 145
+optimum sphere rotation:	-0.035 0.023 -0.030  (err=5.915e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 322.8 [30.0 / 315.2] fps
+
+Frame 146
+optimum sphere rotation:	-0.010 0.026 -0.035  (err=5.795e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 333.3 [30.0 / 364.7] fps
+
+Frame 147
+optimum sphere rotation:	-0.006 0.010 -0.024  (err=5.784e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 340.0 [30.0 / 360.2] fps
+
+Frame 148
+optimum sphere rotation:	0.003 0.005 0.001  (err=5.646e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 333.5 [30.0 / 313.9] fps
+
+Frame 149
+optimum sphere rotation:	0.002 0.004 -0.003  (err=5.677e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 341.4 [30.0 / 365.1] fps
+
+Frame 150
+optimum sphere rotation:	0.002 -0.004 -0.001  (err=5.651e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 342.5 [30.0 / 345.7] fps
+
+Frame 151
+optimum sphere rotation:	0.000 0.003 0.002  (err=5.994e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 350.4 [30.0 / 374.3] fps
+
+Frame 152
+optimum sphere rotation:	0.012 0.026 -0.025  (err=5.702e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 344.1 [30.0 / 325.3] fps
+
+Frame 153
+optimum sphere rotation:	0.020 0.066 -0.006  (err=6.246e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 345.0 [30.0 / 347.7] fps
+
+Frame 154
+optimum sphere rotation:	0.002 0.106 0.036  (err=6.235e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.0 ms
+Average frame rate [in/out]: 350.0 [30.0 / 364.8] fps
+
+Frame 155
+optimum sphere rotation:	0.015 0.101 0.082  (err=6.040e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 339.9 [30.0 / 309.5] fps
+
+Frame 156
+optimum sphere rotation:	0.018 0.098 0.099  (err=6.233e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 329.9 [30.0 / 299.9] fps
+
+Frame 157
+optimum sphere rotation:	0.048 0.080 0.077  (err=5.899e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 318.4 [30.0 / 284.0] fps
+
+Frame 158
+optimum sphere rotation:	0.031 0.070 0.079  (err=6.214e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 333.4 [30.0 / 378.5] fps
+
+Frame 159
+optimum sphere rotation:	0.036 0.089 0.055  (err=6.777e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 335.0 [30.0 / 339.9] fps
+
+Frame 160
+optimum sphere rotation:	0.029 0.056 0.026  (err=6.240e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.4 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 318.7 [30.0 / 269.5] fps
+
+Frame 161
+optimum sphere rotation:	0.027 0.066 0.047  (err=6.627e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 332.3 [30.0 / 373.3] fps
+
+Frame 162
+optimum sphere rotation:	-0.003 0.087 0.035  (err=6.511e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 339.8 [30.0 / 362.2] fps
+
+Frame 163
+optimum sphere rotation:	0.032 0.126 0.025  (err=6.808e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 338.3 [30.0 / 333.8] fps
+
+Frame 164
+optimum sphere rotation:	0.073 0.157 -0.003  (err=7.471e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 327.6 [30.0 / 295.5] fps
+
+Frame 165
+optimum sphere rotation:	0.024 0.182 -0.010  (err=7.557e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 325.3 [30.0 / 318.6] fps
+
+Frame 166
+optimum sphere rotation:	0.003 0.158 0.028  (err=7.563e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 329.6 [30.0 / 342.2] fps
+
+Frame 167
+optimum sphere rotation:	-0.007 0.092 0.075  (err=7.482e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 330.0 [30.0 / 331.2] fps
+
+Frame 168
+optimum sphere rotation:	-0.014 0.089 0.050  (err=7.302e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 340.6 [30.0 / 372.6] fps
+
+Frame 169
+optimum sphere rotation:	-0.013 0.105 0.011  (err=7.678e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 9.9 / 0.4 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 279.1 [30.0 / 94.6] fps
+
+Frame 170
+optimum sphere rotation:	-0.024 0.083 0.003  (err=7.350e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 8.1 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 238.5 [30.0 / 116.7] fps
+
+Frame 171
+optimum sphere rotation:	-0.046 0.106 0.008  (err=6.987e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 7.5 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 210.5 [30.0 / 126.6] fps
+
+Frame 172
+optimum sphere rotation:	-0.047 0.078 0.006  (err=7.150e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 219.8 [30.0 / 247.6] fps
+
+Frame 173
+optimum sphere rotation:	-0.028 0.088 0.006  (err=6.986e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.1 / 0.5 ms
+Average frame rate [in/out]: 244.4 [30.0 / 318.2] fps
+
+Frame 174
+optimum sphere rotation:	0.002 0.102 -0.010  (err=7.187e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 218.0 [30.0 / 138.9] fps
+
+Frame 175
+optimum sphere rotation:	-0.033 0.081 -0.011  (err=6.832e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 255.4 [30.0 / 367.5] fps
+
+Frame 176
+optimum sphere rotation:	-0.031 0.084 0.031  (err=6.931e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 273.6 [30.0 / 328.4] fps
+
+Frame 177
+optimum sphere rotation:	-0.027 0.075 0.008  (err=6.760e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 286.3 [30.0 / 324.3] fps
+
+Frame 178
+optimum sphere rotation:	-0.001 0.103 -0.005  (err=6.814e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 295.7 [30.0 / 323.8] fps
+
+Frame 179
+optimum sphere rotation:	-0.024 0.115 -0.030  (err=6.368e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 305.9 [30.0 / 336.5] fps
+
+Frame 180
+optimum sphere rotation:	-0.028 0.068 0.014  (err=6.500e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 308.0 [30.0 / 314.2] fps
+
+Frame 181
+optimum sphere rotation:	0.004 0.069 0.012  (err=6.224e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 10.8 / 0.5 / 0.0 / 0.1 / 0.5 ms
+Average frame rate [in/out]: 251.9 [30.0 / 83.7] fps
+
+Frame 182
+optimum sphere rotation:	0.003 0.052 0.027  (err=6.259e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 8.9 / 0.3 / 0.0 / 0.1 / 0.4 ms
+Average frame rate [in/out]: 214.5 [30.0 / 102.3] fps
+
+Frame 183
+optimum sphere rotation:	0.036 0.049 0.033  (err=5.936e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 7.3 / 0.3 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 192.7 [30.0 / 127.3] fps
+
+Frame 184
+optimum sphere rotation:	0.008 0.029 0.037  (err=5.953e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.9 / 0.2 / 0.0 / 0.0 / 0.3 ms
+Average frame rate [in/out]: 183.0 [30.0 / 154.1] fps
+
+Frame 185
+optimum sphere rotation:	-0.004 0.010 0.032  (err=5.854e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 192.6 [30.0 / 221.4] fps
+
+Frame 186
+optimum sphere rotation:	-0.001 0.010 -0.011  (err=5.933e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 226.5 [30.0 / 328.0] fps
+
+Frame 187
+optimum sphere rotation:	0.020 -0.002 -0.011  (err=5.638e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 241.3 [30.0 / 286.0] fps
+
+Frame 188
+optimum sphere rotation:	-0.004 -0.013 -0.024  (err=5.658e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 268.2 [30.0 / 348.9] fps
+
+Frame 189
+optimum sphere rotation:	-0.015 -0.026 -0.010  (err=5.614e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 304.6 [30.0 / 413.6] fps
+
+Frame 190
+optimum sphere rotation:	-0.006 0.010 -0.028  (err=5.344e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 306.6 [30.0 / 312.9] fps
+
+Frame 191
+optimum sphere rotation:	-0.011 0.027 -0.025  (err=5.608e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 319.9 [30.0 / 359.5] fps
+
+Frame 192
+optimum sphere rotation:	-0.017 0.033 -0.038  (err=5.614e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 334.9 [30.0 / 380.2] fps
+
+Frame 193
+optimum sphere rotation:	-0.022 0.008 -0.016  (err=5.759e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 335.8 [30.0 / 338.4] fps
+
+Frame 194
+optimum sphere rotation:	-0.022 -0.010 0.006  (err=5.833e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.1 / 0.4 ms
+Average frame rate [in/out]: 334.5 [30.0 / 330.5] fps
+
+Frame 195
+optimum sphere rotation:	0.009 0.012 -0.018  (err=5.662e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 286.5 [30.0 / 142.7] fps
+
+Frame 196
+optimum sphere rotation:	-0.025 0.015 -0.021  (err=5.597e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.1 / 0.3 ms
+Average frame rate [in/out]: 286.8 [30.0 / 287.6] fps
+
+Frame 197
+optimum sphere rotation:	-0.051 0.034 0.006  (err=5.654e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 254.2 [30.0 / 156.4] fps
+
+Frame 198
+optimum sphere rotation:	0.003 0.031 -0.009  (err=5.592e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.1 / 0.5 ms
+Average frame rate [in/out]: 265.2 [30.0 / 298.2] fps
+
+Frame 199
+optimum sphere rotation:	-0.001 0.045 -0.020  (err=5.580e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.5 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 234.9 [30.0 / 144.1] fps
+
+Frame 200
+optimum sphere rotation:	-0.018 0.047 -0.023  (err=5.302e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 260.6 [30.0 / 337.5] fps
+
+Frame 201
+optimum sphere rotation:	-0.013 0.012 -0.007  (err=5.431e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 284.0 [30.0 / 354.5] fps
+
+Frame 202
+optimum sphere rotation:	-0.009 0.002 -0.007  (err=5.231e+03/its=20)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 318.0 [30.0 / 420.0] fps
+
+Frame 203
+optimum sphere rotation:	-0.018 0.014 -0.006  (err=5.317e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 334.9 [30.0 / 385.5] fps
+
+Frame 204
+optimum sphere rotation:	-0.005 0.011 -0.014  (err=5.051e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 339.5 [30.0 / 353.1] fps
+
+Frame 205
+optimum sphere rotation:	-0.005 0.041 0.010  (err=5.032e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 343.4 [30.0 / 355.2] fps
+
+Frame 206
+optimum sphere rotation:	-0.007 0.052 -0.007  (err=4.988e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 343.0 [30.0 / 341.8] fps
+
+Frame 207
+optimum sphere rotation:	0.005 0.043 0.034  (err=4.783e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 349.9 [30.0 / 370.8] fps
+
+Frame 208
+optimum sphere rotation:	0.017 0.030 0.027  (err=4.888e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 351.7 [30.0 / 357.1] fps
+
+Frame 209
+optimum sphere rotation:	-0.012 0.024 0.038  (err=5.186e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 342.2 [30.0 / 313.6] fps
+
+Frame 210
+optimum sphere rotation:	-0.104 0.002 0.029  (err=5.504e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 347.9 [30.0 / 365.1] fps
+
+Frame 211
+optimum sphere rotation:	-0.148 0.011 0.010  (err=5.278e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.9 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 319.7 [30.0 / 235.1] fps
+
+Frame 212
+optimum sphere rotation:	-0.020 0.021 -0.062  (err=4.760e+03/its=35)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 292.2 [30.0 / 209.7] fps
+
+Frame 213
+optimum sphere rotation:	0.006 0.022 -0.038  (err=4.749e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 307.5 [30.0 / 353.5] fps
+
+Frame 214
+optimum sphere rotation:	-0.014 0.027 -0.032  (err=4.924e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 323.2 [30.0 / 370.1] fps
+
+Frame 215
+optimum sphere rotation:	-0.050 0.034 -0.013  (err=4.837e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 317.0 [30.0 / 298.5] fps
+
+Frame 216
+optimum sphere rotation:	-0.021 0.024 -0.026  (err=4.885e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 317.8 [30.0 / 320.2] fps
+
+Frame 217
+optimum sphere rotation:	-0.031 0.060 -0.050  (err=5.258e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 318.5 [30.0 / 320.6] fps
+
+Frame 218
+optimum sphere rotation:	-0.051 0.063 -0.091  (err=5.068e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 319.2 [30.0 / 321.1] fps
+
+Frame 219
+optimum sphere rotation:	-0.057 0.045 -0.036  (err=4.857e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 319.2 [30.0 / 319.2] fps
+
+Frame 220
+optimum sphere rotation:	-0.080 0.025 -0.031  (err=5.036e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.2 [30.0 / 339.2] fps
+
+Frame 221
+optimum sphere rotation:	-0.063 0.035 -0.059  (err=5.833e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 316.6 [30.0 / 293.7] fps
+
+Frame 222
+optimum sphere rotation:	-0.035 0.077 -0.098  (err=5.899e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 274.8 [30.0 / 149.6] fps
+
+Frame 223
+optimum sphere rotation:	-0.037 0.063 -0.076  (err=5.549e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 293.5 [30.0 / 349.7] fps
+
+Frame 224
+optimum sphere rotation:	-0.050 0.037 -0.029  (err=5.978e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 316.0 [30.0 / 383.6] fps
+
+Frame 225
+optimum sphere rotation:	-0.060 0.038 -0.023  (err=5.814e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 322.7 [30.0 / 342.7] fps
+
+Frame 226
+optimum sphere rotation:	-0.026 0.030 -0.032  (err=5.744e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 318.9 [30.0 / 307.4] fps
+
+Frame 227
+optimum sphere rotation:	-0.006 0.024 -0.033  (err=5.487e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 325.0 [30.0 / 343.4] fps
+
+Frame 228
+optimum sphere rotation:	-0.020 0.012 -0.039  (err=5.325e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 334.1 [30.0 / 361.3] fps
+
+Frame 229
+optimum sphere rotation:	-0.003 0.008 0.007  (err=5.526e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 342.5 [30.0 / 367.8] fps
+
+Frame 230
+optimum sphere rotation:	-0.006 0.010 0.002  (err=5.892e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 345.5 [30.0 / 354.5] fps
+
+Frame 231
+optimum sphere rotation:	-0.029 0.056 -0.056  (err=5.572e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 329.8 [30.0 / 282.9] fps
+
+Frame 232
+optimum sphere rotation:	-0.031 0.080 -0.016  (err=6.016e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 6.6 / 0.3 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 282.8 [30.0 / 141.7] fps
+
+Frame 233
+optimum sphere rotation:	-0.010 0.088 -0.019  (err=6.071e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.2 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 267.4 [30.0 / 221.0] fps
+
+Frame 234
+optimum sphere rotation:	-0.032 0.104 -0.051  (err=5.821e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.9 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 260.2 [30.0 / 238.8] fps
+
+Frame 235
+optimum sphere rotation:	-0.041 0.076 -0.016  (err=6.055e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.4 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 260.9 [30.0 / 262.9] fps
+
+Frame 236
+optimum sphere rotation:	-0.061 0.081 -0.007  (err=5.706e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.0 / 0.2 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 252.9 [30.0 / 228.9] fps
+
+Frame 237
+optimum sphere rotation:	-0.061 0.082 -0.013  (err=6.266e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 264.9 [30.0 / 300.8] fps
+
+Frame 238
+optimum sphere rotation:	-0.059 0.096 -0.064  (err=6.360e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 281.2 [30.0 / 330.3] fps
+
+Frame 239
+optimum sphere rotation:	-0.034 0.086 -0.074  (err=6.359e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 301.5 [30.0 / 362.5] fps
+
+Frame 240
+optimum sphere rotation:	-0.053 0.077 -0.025  (err=6.321e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 310.5 [30.0 / 337.4] fps
+
+Frame 241
+optimum sphere rotation:	-0.077 0.048 -0.016  (err=5.981e+03/its=31)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 303.7 [30.0 / 283.4] fps
+
+Frame 242
+optimum sphere rotation:	-0.046 0.074 -0.057  (err=6.171e+03/its=29)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.1 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 302.6 [30.0 / 299.3] fps
+
+Frame 243
+optimum sphere rotation:	-0.047 0.081 -0.079  (err=6.181e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 321.3 [30.0 / 377.4] fps
+
+Frame 244
+optimum sphere rotation:	-0.056 0.057 -0.052  (err=5.934e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 325.9 [30.0 / 339.8] fps
+
+Frame 245
+optimum sphere rotation:	-0.088 0.068 -0.018  (err=6.005e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 331.5 [30.0 / 348.3] fps
+
+Frame 246
+optimum sphere rotation:	-0.058 0.048 -0.028  (err=5.776e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 335.1 [30.0 / 345.7] fps
+
+Frame 247
+optimum sphere rotation:	-0.049 0.066 -0.089  (err=5.734e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 344.0 [30.0 / 370.9] fps
+
+Frame 248
+optimum sphere rotation:	-0.043 0.041 -0.046  (err=4.970e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.3 / 0.3 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 301.4 [30.0 / 173.6] fps
+
+Frame 249
+optimum sphere rotation:	-0.041 0.047 -0.015  (err=5.600e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 296.3 [30.0 / 280.7] fps
+
+Frame 250
+optimum sphere rotation:	-0.060 0.049 -0.058  (err=5.302e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.4 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 274.9 [30.0 / 210.8] fps
+
+Frame 251
+optimum sphere rotation:	-0.032 0.052 -0.058  (err=5.148e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 288.0 [30.0 / 327.3] fps
+
+Frame 252
+optimum sphere rotation:	-0.024 0.057 -0.065  (err=5.201e+03/its=22)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 314.7 [30.0 / 394.9] fps
+
+Frame 253
+optimum sphere rotation:	-0.034 0.049 -0.055  (err=5.504e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 329.1 [30.0 / 372.3] fps
+
+Frame 254
+optimum sphere rotation:	-0.055 0.042 -0.017  (err=5.453e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.7 / 0.2 / 0.0 / 0.1 / 0.2 ms
+Average frame rate [in/out]: 295.0 [30.0 / 192.8] fps
+
+Frame 255
+optimum sphere rotation:	-0.037 0.043 -0.022  (err=5.434e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.4 / 0.2 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 264.2 [30.0 / 171.9] fps
+
+Frame 256
+optimum sphere rotation:	-0.017 0.065 -0.048  (err=5.116e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.1 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 255.1 [30.0 / 227.6] fps
+
+Frame 257
+optimum sphere rotation:	-0.022 0.042 -0.044  (err=4.914e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 282.7 [30.0 / 365.6] fps
+
+Frame 258
+optimum sphere rotation:	-0.011 0.019 -0.010  (err=5.346e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.7 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 260.1 [30.0 / 192.4] fps
+
+Frame 259
+optimum sphere rotation:	-0.008 0.004 0.009  (err=5.445e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.4 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 239.3 [30.0 / 176.8] fps
+
+Frame 260
+optimum sphere rotation:	0.010 0.022 -0.008  (err=4.767e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 262.9 [30.0 / 333.7] fps
+
+Frame 261
+optimum sphere rotation:	-0.005 0.030 0.005  (err=4.935e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 287.5 [30.0 / 361.1] fps
+
+Frame 262
+optimum sphere rotation:	-0.008 0.017 0.013  (err=5.178e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 307.5 [30.0 / 367.6] fps
+
+Frame 263
+optimum sphere rotation:	0.007 0.018 0.016  (err=5.097e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 319.7 [30.0 / 356.4] fps
+
+Frame 264
+optimum sphere rotation:	0.010 0.003 0.013  (err=4.841e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 327.0 [30.0 / 348.7] fps
+
+Frame 265
+optimum sphere rotation:	-0.002 0.008 0.001  (err=4.831e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 329.1 [30.0 / 335.3] fps
+
+Frame 266
+optimum sphere rotation:	-0.004 -0.001 -0.001  (err=4.863e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 337.3 [30.0 / 361.9] fps
+
+Frame 267
+optimum sphere rotation:	-0.029 0.008 -0.009  (err=5.172e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 343.8 [30.0 / 363.4] fps
+
+Frame 268
+optimum sphere rotation:	-0.026 -0.008 -0.024  (err=5.211e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 348.3 [30.0 / 361.9] fps
+
+Frame 269
+optimum sphere rotation:	-0.026 0.015 -0.079  (err=5.149e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 351.3 [30.0 / 360.1] fps
+
+Frame 270
+optimum sphere rotation:	-0.039 0.015 -0.089  (err=5.083e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 350.3 [30.0 / 347.3] fps
+
+Frame 271
+optimum sphere rotation:	-0.025 -0.015 -0.047  (err=4.738e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 346.5 [30.0 / 335.2] fps
+
+Frame 272
+optimum sphere rotation:	-0.032 -0.008 -0.060  (err=4.906e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 5.0 / 0.2 / 0.0 / 0.1 / 0.1 ms
+Average frame rate [in/out]: 305.9 [30.0 / 184.0] fps
+
+Frame 273
+optimum sphere rotation:	-0.045 0.003 -0.044  (err=5.348e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 301.1 [30.0 / 286.8] fps
+
+Frame 274
+optimum sphere rotation:	-0.027 0.005 -0.035  (err=5.092e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 312.9 [30.0 / 348.3] fps
+
+Frame 275
+optimum sphere rotation:	0.002 0.005 -0.024  (err=5.288e+03/its=28)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 312.7 [30.0 / 312.1] fps
+
+Frame 276
+optimum sphere rotation:	-0.015 0.001 -0.049  (err=5.211e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.4 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.1 [30.0 / 358.2] fps
+
+Frame 277
+optimum sphere rotation:	-0.010 0.005 -0.037  (err=5.102e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 326.1 [30.0 / 332.2] fps
+
+Frame 278
+optimum sphere rotation:	-0.037 0.020 -0.062  (err=5.051e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 321.1 [30.0 / 306.0] fps
+
+Frame 279
+optimum sphere rotation:	-0.108 0.051 -0.058  (err=5.150e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 323.6 [30.0 / 331.1] fps
+
+Frame 280
+optimum sphere rotation:	-0.053 0.056 -0.061  (err=5.072e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 322.1 [30.0 / 317.7] fps
+
+Frame 281
+optimum sphere rotation:	0.016 0.006 -0.040  (err=4.864e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.1 [30.0 / 330.1] fps
+
+Frame 282
+optimum sphere rotation:	-0.015 0.000 -0.003  (err=4.672e+03/its=30)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 315.6 [30.0 / 289.9] fps
+
+Frame 283
+optimum sphere rotation:	-0.053 0.017 -0.028  (err=5.162e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 316.7 [30.0 / 319.9] fps
+
+Frame 284
+optimum sphere rotation:	-0.024 0.015 -0.034  (err=4.966e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 324.6 [30.0 / 348.4] fps
+
+Frame 285
+optimum sphere rotation:	-0.010 0.034 -0.082  (err=4.888e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 324.7 [30.0 / 324.9] fps
+
+Frame 286
+optimum sphere rotation:	-0.039 -0.010 -0.051  (err=4.498e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 4.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 295.9 [30.0 / 209.5] fps
+
+Frame 287
+optimum sphere rotation:	-0.042 0.016 -0.026  (err=4.262e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 306.7 [30.0 / 339.0] fps
+
+Frame 288
+optimum sphere rotation:	-0.089 0.015 -0.051  (err=4.289e+03/its=21)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 329.6 [30.0 / 398.4] fps
+
+Frame 289
+optimum sphere rotation:	-0.056 0.026 -0.064  (err=4.390e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 332.9 [30.0 / 342.9] fps
+
+Frame 290
+optimum sphere rotation:	-0.037 0.031 -0.092  (err=4.468e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.5 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 341.6 [30.0 / 367.8] fps
+
+Frame 291
+optimum sphere rotation:	-0.036 0.024 -0.098  (err=4.132e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 341.1 [30.0 / 339.6] fps
+
+Frame 292
+optimum sphere rotation:	-0.043 0.021 -0.051  (err=3.999e+03/its=24)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 344.1 [30.0 / 353.0] fps
+
+Frame 293
+optimum sphere rotation:	-0.047 0.016 -0.039  (err=3.974e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.8 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 340.0 [30.0 / 327.9] fps
+
+Frame 294
+optimum sphere rotation:	-0.047 0.015 -0.043  (err=4.058e+03/its=21)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.3 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 348.5 [30.0 / 373.8] fps
+
+Frame 295
+optimum sphere rotation:	-0.033 0.038 -0.076  (err=4.434e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 334.0 [30.0 / 290.6] fps
+
+Frame 296
+optimum sphere rotation:	-0.043 0.039 -0.099  (err=4.180e+03/its=26)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 3.0 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 323.0 [30.0 / 289.9] fps
+
+Frame 297
+optimum sphere rotation:	-0.060 0.033 -0.046  (err=4.618e+03/its=27)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.9 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 317.9 [30.0 / 302.8] fps
+
+Frame 298
+optimum sphere rotation:	-0.079 0.030 -0.050  (err=4.392e+03/its=23)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.6 / 0.1 / 0.0 / 0.0 / 0.2 ms
+Average frame rate [in/out]: 321.9 [30.0 / 333.7] fps
+
+Frame 299
+Error grabbing image frame!
+Error grabbing new frame!
+optimum sphere rotation:	-0.058 0.015 -0.046  (err=4.221e+03/its=25)
+Acquiring...
+Acquired
+Releasing...
+Timing grab/opt/map/plot/log/disp: 0.0 / 2.7 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average frame rate [in/out]: 325.0 [30.0 / 334.3] fps
+
+----------------------------------------------------------------------------
+Trackball timing:
+Average grab/opt/map/plot/log/disp time: 0.0 / 3.2 / 0.1 / 0.0 / 0.0 / 0.1 ms
+Average fps: 288.71
+
+Optimiser test data:
+Average number evals / frame: 25.2
+----------------------------------------------------------------------------
+Template saved to disk (sample-template.png).
+Closing...
+Closing sphere tracker
+Closed
+Closing...
+Closed
+Closing recorder..
+Closing recorder..
+Closing input stream
+Closing recorder..
+Closing recorder..

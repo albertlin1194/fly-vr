@@ -112,13 +112,16 @@ def main_launcher():
     # start the other mainloops
 
     # these always run
-    hwio = ConcurrentTask(task=run_phidget_io, comms=None, taskinitargs=[options])
-    backend_wait.append(BACKEND_HWIO)
-    hwio.start()
+    #hwio = ConcurrentTask(task=run_phidget_io, comms=None, taskinitargs=[options])
+    #backend_wait.append(BACKEND_HWIO)
+    #hwio.start()
 
-    daq = ConcurrentTask(task=run_io, comms=None, taskinitargs=[options])
-    backend_wait.append(BACKEND_DAQ)
-    daq.start()
+    #daq = ConcurrentTask(task=run_io, comms=None, taskinitargs=[options])
+    #backend_wait.append(BACKEND_DAQ)
+    #daq.start()
+
+    hwio = None
+    daq = None
 
     # these are optional
     if options.keepalive_video or options.playlist.get('video'):

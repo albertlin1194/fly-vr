@@ -25,7 +25,7 @@ class FicTracV2Driver(object):
     calls a control function once for each time the tracking state of the insect is updated.
     """
 
-    def __init__(self, config_file, console_ouput_file, pgr_enable=False):
+    def __init__(self, config_file, console_ouput_file, pgr_enable=True):
         """
         Create the FicTrac driver object. This function will perform a check to see if the FicTrac program is present
         on the path. If it is not, it will throw an exception.
