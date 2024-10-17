@@ -15,8 +15,46 @@ from flyvr.common.tools import which
 from flyvr.fictrac.shmem_transfer_data import new_mmap_shmem_buffer, new_mmap_signals_buffer, \
     SHMEMFicTracState, fictrac_state_to_vec, NUM_FICTRAC_FIELDS
 
+from ni845x import NI845x
 
 H5_DATA_VERSION = 1
+
+class SICommunicator():
+    def __init__(self, on=True):
+        print('on', on)
+        self.on = on
+        print('self on', self.on)
+        if not self.on:
+            return
+
+        self.ni = NI845x()
+
+    def start_acq(self):
+        if self.on:
+            self.ni.write_dio(3, 1)
+            self.ni.write_dio(3, 0)
+    
+    def stop_acq(self):
+        if self.on:
+            self.ni.write_dio(4, 1)
+            self.ni.write_dio(4, 0)
+            #config.ni845x_lines['stop_acq']
+
+    def i2c(self, msg):
+        if not self.on:
+            return
+
+        #try:
+        self.ni.write_i2c(msg)
+            #print('Written')
+        #except:
+         #   logging.error('I2C communication failed!')
+            
+
+    def end(self):
+        if self.on:
+            self.ni.end()
+
 
 
 class FicTracV2Driver(object):
@@ -149,6 +187,8 @@ class FicTracV2Driver(object):
 
             semaphore = self._open_fictrac_semaphore()
 
+            self.sic = SICommunicator(self.fictrac_process)
+
             # Process FicTrac updates in shared memory
             while (self.fictrac_process.poll() is None) and running and semaphore:
 
@@ -167,8 +207,12 @@ class FicTracV2Driver(object):
 
                 new_frame_count = data_copy.frame_cnt
 
+                num = str(new_frame_count)
+                
+                self.sic.i2c(num)#new_frame_count
+
                 if old_frame_count != new_frame_count:
-                    # If this is our first frame incremented, then send a signal to the
+                    # If this is  our first frame incremented, then send a signal to the
                     # that we have started processing frames
                     if old_frame_count == first_frame_count:
                         if flyvr_shared_state:
